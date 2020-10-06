@@ -30,7 +30,7 @@ img{
 height:40px;
 }
 canvas {
-  background: #2d1300;
+  background: #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -39,7 +39,7 @@ canvas {
 header{
     width:100%;
     height:100vh;
-    background-color: #2d1300;
+    background-color: #000000;
     background-size: 100% 100%;
     clip-path: polygon(100% 0%, 100% 75%,50% 100%,0% 75%,0% 0%);
     position: relative;
@@ -71,7 +71,7 @@ nan:before{
     width:100%;
     height: inherit;
     position: relative;
-    color: #fffdd0;
+    color: #ffffff;
     text-align: center;
 }
 .center-div{
@@ -184,8 +184,8 @@ nan:before{
 }
 /************************************************event-end***************************************************/
 
-.brown{
-    color: #2d1300 !important;
+.black{
+    color: #000000 !important;
 }
 
 i:hover{
@@ -210,7 +210,7 @@ i:hover{
     bottom: 0%;
     left: 0%;
     z-index: -1;
-    background: linear-gradient(160deg,#2d1300 55%,#fff 0%);
+    background: linear-gradient(160deg,#000000 55%,#fff 0%);
     
 }
 
@@ -225,7 +225,7 @@ i:hover{
     align-items:center;
     /*background:black;*/
       /*  background:#16384c;*/
-    background-image:linear-gradient(rgba(45,19,0),rgba(45,19,0));
+    background-image:linear-gradient(rgba(0,0,0),rgba(0,0,0));
 
 }
 
@@ -326,7 +326,7 @@ height:40px;
 
 .footersection{
         color: #dddff0;
-        background: linear-gradient(to right, #2d1300, #2d1300);
+        background: linear-gradient(to right, #000000, #000000);
 }
 
 
