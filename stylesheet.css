@@ -29,19 +29,17 @@ img{
 
 height:40px;
 }
-
-body{
-    
-             /*   background-image: linear-gradient(57deg,#8614ce,#ff0057);
-
-*/}
+canvas {
+  background: #2d1300;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 header{
-    
     width:100%;
     height:100vh;
-    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url('./assets/background.jpg');
-    background-repeat: no-repeat;
+    background-color: #2d1300;
     background-size: 100% 100%;
     clip-path: polygon(100% 0%, 100% 75%,50% 100%,0% 75%,0% 0%);
     position: relative;
@@ -73,7 +71,7 @@ nan:before{
     width:100%;
     height: inherit;
     position: relative;
-    color: white;
+    color: #fffdd0;
     text-align: center;
 }
 .center-div{
@@ -122,7 +120,7 @@ nan:before{
 }
 
 .gg{
-    color:  gold!important;
+    color:  #fffdd0!important;
 
 }
 
@@ -158,6 +156,7 @@ nan:before{
     padding: 20px 0 30px 0;
     border: medium none;
     border-radius: 3px;
+    text-decoration: none;
     
 }
 .cart:hover{
@@ -174,7 +173,7 @@ nan:before{
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 0.9rem;
-margin: 20px 0 15px 0;    
+    margin: 20px 0 15px 0;    
 }
 
  .cart p{
@@ -185,7 +184,9 @@ margin: 20px 0 15px 0;
 }
 /************************************************event-end***************************************************/
 
-
+.brown{
+    color: #2d1300 !important;
+}
 
 i:hover{
     color: aliceblue;
@@ -209,8 +210,8 @@ i:hover{
     bottom: 0%;
     left: 0%;
     z-index: -1;
-    background: linear-gradient(160deg,#16c9f6 55%,#fff 0%);
-     
+    background: linear-gradient(160deg,#2d1300 55%,#fff 0%);
+    
 }
 
 
@@ -224,7 +225,7 @@ i:hover{
     align-items:center;
     /*background:black;*/
       /*  background:#16384c;*/
-    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3));
+    background-image:linear-gradient(rgba(45,19,0),rgba(45,19,0));
 
 }
 
@@ -324,11 +325,15 @@ height:40px;
 /************************************************about-end***************************************************/
 
 .footersection{
-    
-        background: linear-gradient(to right, #0072ff, #00c6ff);
+        color: #dddff0;
+        background: linear-gradient(to right, #2d1300, #2d1300);
 }
 
 
 /************************************************footersection-end***************************************************/
 
 
+/* Main content */
+.center-div {
+  margin-top:45px; /* Add a top margin to avoid content overlay */
+}
